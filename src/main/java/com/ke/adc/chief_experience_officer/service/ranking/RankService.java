@@ -7,5 +7,5 @@ import java.util.List;
 public interface RankService {
     Integer addScore(Integer id,Integer score);
     List<Rank> searchRanking();
-    Integer useScore(Integer id);
+    Integer useScore(Integer id,Integer score);
 }
